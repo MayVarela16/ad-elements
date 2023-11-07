@@ -1,15 +1,11 @@
  // Aquí tu código
  
- function addElements() {
-    const nuevoElemento= prompt("Escriba un elemento:");
-    const lista= document.getElementById("lista");
-    const elementoLista= document.createElement("li");
+ const botonAgregar= document.getElementById("agregar");
+ const lista= document.getElementById("lista");
 
-    elementoLista.textContent= nuevoElemento;
-    lista.appendChild(elementoLista);
-}
+ botonAgregar.addEventListener("click", () => {
+     const elemento= prompt("escribe un Elemento:");
+         
 
-const botonAgregar= document.getElementById("Agregar");
- botonAgregar.addEventListener("click", agregarElemento);
-
- console.log(addElements());
+         lista.appendChild(nuevoElemento);
+});
