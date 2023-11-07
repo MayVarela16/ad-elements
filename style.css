@@ -6,7 +6,6 @@
     padding: 20px;
     justify-content: center;
     align-items: center;
-    
   }
 
   .elementos {
@@ -15,10 +14,22 @@
     font-weight: lighter;
     text-decoration: underline;
     color:cadetblue;
+    padding: 20px;
   }
 
   #lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     list-style-type:square; 
+    background-color: darksalmon;
+    color: cadetblue;
+    margin-top: 100px;
+    gap: 35px;
+    list-style-type: none;
+    position: absolute;
+    
+
     }
 
     #agregar {
